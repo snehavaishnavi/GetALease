@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.spring.app.dao.ComplaintDAOImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/ComplaintDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="224" x="4097" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.spring.app.model.Complaint" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/model/Complaint.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="567" width="171" x="399" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.spring.app.service.ComplaintServiceImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/ComplaintServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="248" x="5521" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.spring.app.service.RenewLeaseService" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/RenewLeaseService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="211" x="7055" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="com.spring.app.dao.UserDAO" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/UserDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="137" x="3674" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.spring.app.dao.OtpDAOImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/OtpDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="224" x="7563" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.spring.app.bean.deleteApartmentBean" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/bean/deleteApartmentBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="148" x="610" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.spring.app.service.Occupied_apartmentServiceImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/Occupied_apartmentServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="318" x="5163" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="com.spring.app.dao.ContactDAO" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/ContactDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="158" x="4219" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="10" language="java" name="com.spring.app.service.Occupied_apartmentService" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/Occupied_apartmentService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="283" x="5563" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="com.spring.app.ApartmentController" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/ApartmentController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="246" x="6812" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.spring.app.service.ContactServiceImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/ContactServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="195" x="4605" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.spring.app.model.Otp" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/model/Otp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="139" x="798" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.spring.app.model.User" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/model/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="223" x="977" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.spring.app.dao.Occupied_apartmentDAOImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/Occupied_apartmentDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="283" x="4840" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.spring.app.bean.ComplaintOut" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/bean/ComplaintOut.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="567" width="317" x="1240" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.spring.app.bean.UserBean" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/bean/UserBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="150" x="1597" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="18" language="java" name="com.spring.app.service.ComplaintService" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/ComplaintService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="248" x="5886" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="19" language="java" name="com.spring.app.service.UserServiceImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/UserServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="204" x="4361" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.spring.app.bean.RenewLeaseBean" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/bean/RenewLeaseBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="190" x="1787" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" language="java" name="com.spring.app.service.OtpService" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/OtpService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="114" x="6433" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="22" language="java" name="com.spring.app.service.ContactService" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/ContactService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="158" x="5121" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="23" language="java" name="com.spring.app.dao.RenewLeaseDAOimpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/RenewLeaseDAOimpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="224" x="8422" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.spring.app.dao.ApartmentDAOImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/ApartmentDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="267" x="8115" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="25" language="java" name="com.spring.app.dao.Occupied_apartmentDAO" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/Occupied_apartmentDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="283" x="4798" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="26" language="java" name="com.spring.app.dao.UserDAOImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/UserDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="224" x="2987" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.spring.app.model.Occupied_apartment" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/model/Occupied_apartment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="147" x="2017" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.spring.app.HomeController" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/HomeController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="435" x="5809" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.spring.app.bean.Loginbean" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/bean/Loginbean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="150" x="2204" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="30" language="java" name="com.spring.app.dao.RenewLeaseDAO" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/RenewLeaseDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="211" x="8125" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="31" language="java" name="com.spring.app.bean.ContactBean" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/bean/ContactBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="144" x="2394" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="32" language="java" name="com.spring.mailer.IMailer" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/mailer/IMailer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="127" x="2578" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="33" language="java" name="com.spring.app.model.Available_apartment" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/model/Available_apartment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="202" x="2745" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.spring.app.UserController" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/UserController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="302" width="488" x="6284" y="-104"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.spring.app.service.ApartmentServiceImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/ApartmentServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="233" x="7290" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.spring.app.bean.UserDetailsBean" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/bean/UserDetailsBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="152" x="6587" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="37" language="java" name="com.spring.app.service.UserService" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/UserService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="204" x="5319" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="38" language="java" name="com.spring.app.dao.ApartmentDAO" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/ApartmentDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="267" x="7702" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="39" language="java" name="com.spring.app.dao.ComplaintDAO" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/ComplaintDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="171" x="4587" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="40" language="java" name="com.spring.app.model.Renew_lease" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/model/Renew_lease.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="190" x="3251" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="41" language="java" name="com.spring.app.service.ApartmentService" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/ApartmentService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="233" x="6779" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="42" language="java" name="com.spring.app.bean.AllocateBean" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/bean/AllocateBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="118" x="3481" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.spring.mailer.contactMail" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/mailer/contactMail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="219" x="6174" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="44" language="java" name="com.spring.app.dao.OtpDAO" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/OtpDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="114" x="7330" y="521"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="45" language="java" name="com.spring.app.bean.ComplaintBean" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/bean/ComplaintBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="154" x="3639" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="com.spring.app.service.RenewLeaseServiceImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/RenewLeaseServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="248" x="7827" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="com.spring.app.dao.ContactDAOImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/dao/ContactDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="224" x="3833" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="com.spring.app.service.OtpServiceImpl" project="SSDI_GRP_04" 
+    file="/SSDI_GRP_04/src/main/java/com/spring/app/service/OtpServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="152" x="7098" y="-104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="49">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="50" name="complainService"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="52">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <association id="53">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="54" name="occService"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="56">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="57">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="58" name="complaintDAO"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="61" name="renewlease"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="63">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="64">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="65" name="userService"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="68" name="apartmentService"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="71" name="otpService"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="73">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <association id="74">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="75" name="available_apartmentService"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="77">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="78">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="79" name="otpService"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="81">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="39"/>  
+  </realization>  
+  <association id="82">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="83" name="userService"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="85">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="86">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="87" name="occupied_apartmentDAO"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="90" name="contacttDAO"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="92">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="93" name="otpDAO"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="96" name="userDAO"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="98">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="99">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="100" name="mailer"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="103" name="mailer"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="105">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="37"/>  
+  </realization>  
+  <association id="106">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="107" name="apartmentService"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="109">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="110">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="111" name="renewLeaseDAO"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="114" name="userinfo"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="116">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <realization id="117">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="44"/>  
+  </realization>  
+  <realization id="118">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="25"/>  
+  </realization>  
+  <association id="119">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="120" name="contactService"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="122">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="123" name="userService"/>      
+      <multiplicity id="124" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="125">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="38"/>  
+  </realization>  
+  <association id="126">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="127" name="occService"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="130" name="complaintService"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="132">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="133" name="apartmentDAO"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
